@@ -17,7 +17,7 @@ export default Vue.extend({
     };
   },
   methods: {
-    updateTodotext(v: any) {
+    updateTodotext(v: string) {
       this.todoText = v;
     },
     addTodoItem() {
